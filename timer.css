@@ -39,7 +39,7 @@ body{
     overflow:hidden;
 }
 .digit{
-    color:aliceblue;
+    color:black;
     font-weight: lighter;
     font-size: 70px;
     text-align: center;
@@ -51,4 +51,30 @@ body{
     text-align: center;
     padding: 0.6rem 0;
     font-size: 20px;
+}
+
+body.scheme1 .digit {
+    color: #3b9fbb; 
+}
+body.scheme2 .digit {
+    color: #2a5934; 
+}
+body.scheme3 .digit {
+    color: #c19a6b; 
+}
+body.default {
+    background: url('light.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+body.scheme1 {
+    background: url('water.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+body.scheme2 {
+    background: url('30+\ Aesthetic\ Green\ Wallpapers\ for\ iPad.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+body.scheme3 {
+    background: url('bewa.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
